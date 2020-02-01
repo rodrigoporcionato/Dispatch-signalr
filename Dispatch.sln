@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispatch", "Dispatch\Dispatch.csproj", "{91CD86D6-0C3D-4A16-8F8C-490B40A1EF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispatch.Huib", "Dispatch.Huib\Dispatch.Huib.csproj", "{CC856FF0-FE0E-49AE-98BF-0267DDC13B0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91CD86D6-0C3D-4A16-8F8C-490B40A1EF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CD86D6-0C3D-4A16-8F8C-490B40A1EF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CD86D6-0C3D-4A16-8F8C-490B40A1EF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CD86D6-0C3D-4A16-8F8C-490B40A1EF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC856FF0-FE0E-49AE-98BF-0267DDC13B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC856FF0-FE0E-49AE-98BF-0267DDC13B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC856FF0-FE0E-49AE-98BF-0267DDC13B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC856FF0-FE0E-49AE-98BF-0267DDC13B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1EAE44A-BC2B-4E5B-B3B7-BAB38BFC01FB}
+	EndGlobalSection
+EndGlobal
