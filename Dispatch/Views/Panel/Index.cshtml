@@ -5,10 +5,17 @@
 
 <h2>Panel do prestador</h2>
 
-
 <input type="hidden" name="user-login" id="user-login" value="@User.Identity.Name" />
 
 <div>
     usuário: @User.Identity.Name <br />
-    Nome: @User.Identity.Name <br />
+    conexão: <input type="text" id="connection-id" value="" />
+</div>
+<hr />
+
+
+
+<div id="alerts">
+    <ol>
+    </ol>
 </div>

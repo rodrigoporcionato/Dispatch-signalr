@@ -33,6 +33,7 @@
 
     hub.on('NewDispatch', function (userName, message) {
         console.log(userName + ' ' + message);
+        showMessage(message);
     });
 
     connection.logging = true;
@@ -40,9 +41,14 @@
     connection.start().done(function () {
         console.log('Now connected, connection ID=' + connection.id);
         console.log(connection);
+        $('#connection-id').val(connection.id);
     })
     .fail(function (a) {
         console.log('Could not connect' + a);
     });
+
+    function showMessage(text) {
+        $("ol").append("<li><div class='alert alert-info'>" + text +"</div></li> ");
+    }
 
 }
